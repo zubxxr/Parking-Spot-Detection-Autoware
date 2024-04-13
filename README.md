@@ -1,5 +1,5 @@
 # Parking Spot Availability Detection
-This script utilizes YOLO object detection to identify open parking spots in a video feed. It leverages a custom YOLOv8 weight trained on our model car, the ROSMASTER R2, developed by Yahboom Technologies. This specialized weight enables YOLO to effectively detect the model car used in this application, enabling real-time identification of occupied parking spots. The script then determines the availability of parking spaces, which are subsequently published to a ROS2 topic. These data are utilized by the `avp.py` node, available [here](https://github.com/zubxxr/Automated-Valet-Parking-Autoware), enabling autonomous parking in open spots.
+This script utilizes YOLO object detection to identify open parking spots in a video feed. It leverages a custom YOLOv8 weight trained on the model car, ROSMASTER R2, developed by Yahboom Technologies. This specialized weight enables YOLO to effectively detect the model car used in this application, enabling real-time identification of occupied parking spots. The script then determines the availability of parking spaces, which are subsequently published to a ROS2 topic. These data are utilized by the `avp.py` node, available [here](https://github.com/zubxxr/Automated-Valet-Parking-Autoware), enabling autonomous parking in open spots.
 
 ## Quick Setup
 
